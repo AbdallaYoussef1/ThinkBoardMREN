@@ -1,0 +1,22 @@
+{
+  "name": "mern",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "npm i --prefix Backend && npm i --prefix FrontEnd && npm run build --prefix FrontEnd",
+    "start": "npm run start:prod --prefix Backend"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AbdallaYoussef1/ThinkBoardMREN.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/AbdallaYoussef1/ThinkBoardMREN/issues"
+  },
+  "homepage": "https://github.com/AbdallaYoussef1/ThinkBoardMREN#readme"
+}
